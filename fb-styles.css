@@ -1,0 +1,295 @@
+body{
+	background-color: #E9EBEE;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#header{
+	height: 42px;
+	background-color: #4267B2
+}
+
+.navbar{
+	max-width: 900px;
+	margin: auto;
+}
+
+.navbar-left{
+	width: 50%;
+}
+
+.navbar-left, .navbar-right{
+	display: inline-block;
+}
+
+.navbar-left input{
+	width: 90%;
+	display: inline-block;
+}
+
+
+.fb-logo{
+	display: inline-block;
+	background-image: url('https://www.facebook.com/rsrc.php/v3/ye/r/jNvmNEDilLw.png');
+	background-repeat: no-repeat;
+	background-size: 25px 626px;
+	background-position: 0 -50px;
+	height: 24px;
+	outline: none;
+	overflow: hidden;
+	text-indent: -999px;
+	white-space: nowrap;
+	width: 24px;	
+}
+
+.navbar-right{
+	width: 49%;
+	display: inline-block;
+	right: 0px;
+}
+
+/* The ">" will apply the rule ONLY to direct decendents of the parent */
+.navbar-right > div, .navbar-right li{
+	float: left;
+}
+
+/* #ads{
+	color: white;
+}
+
+ */
+
+#content{
+	max-width: 900px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#content > div{
+	display: inline-block;
+	vertical-align: top;
+	background-color: #ddd;
+	min-height: 100vh;
+	border-radius: 5px;
+}
+
+.left-content{
+	width: 20%;
+}
+
+.left-content .left-menu-item{
+	padding: 10px;
+	margin: auto;
+	vertical-align: middle;
+	position: relative;
+}
+
+/* Pseudo classes like "hover" are only applied to the element under
+certain circumstatnces */
+.left-content .left-menu-item:hover{
+	background-color: white;
+}
+
+.main-content{
+	width: 50%;
+}
+
+.right-content{
+	width: 25%;
+}
+.watch{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-position:  -105px -20px;
+	background-image: url("PNpS9AOE4sb.png")
+}
+.left-messenger {
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -452px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#newsicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -704px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#eventsicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -704px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#pagesicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -809px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#groupsicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -621px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#fundicon{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-position:  -105px -125px;
+	background-image: url("PNpS9AOE4sb.png")
+}
+
+#savedicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -936px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#friendslisticon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -725px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#onthisdayicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -789px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#gamesicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -556px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#livevideoicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -663px;
+	background-image: url("zCD22JJOtuU.png");
+}
+#marketplaceicon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: auto;
+	
+	background-position:  -120px -684px;
+	background-image: url("zCD22JJOtuU.png");
+}
+
+#friendsicontop{
+		width: 24px;
+	height: 24px;
+	display: inline-block;
+	
+    background-size: 25px 626px;
+    background-position: 0 -75px;
+    opacity: .6;
+	background-image: url("jNvmNEDilLw.png");
+	padding: 0 3px 3px 0;
+}
+
+#messengertopicon{
+		width: 24px;
+	height: 24px;
+	display: inline-block;
+	    background-size: 26px 267px;
+    background-position: 0 -113px;
+    opacity: .6;
+	background-image: url("8cqRm07n-O9.png");
+	padding: 0 3px 3px 0;
+}
+
+#notificationsicon{
+		width: 24px;
+	height: 24px;
+	display: flex;
+	    background-size: 25px 626px;
+    background-position: 0 -125px;
+    opacity: .6;
+	background-image: url("jNvmNEDilLw.png");
+	padding: 0 3px 3px 0;
+	position: relative;
+}
+
+#help {
+	background-repeat: no-repeat;
+    background-size: 25px 630px;
+    background-position: 0 -401px;
+    height: 20px;
+    margin-top: -2px;
+    opacity: .6;
+    width: 20px;
+	background-image: url("jNvmNEDilLw.png");
+	padding: 0 3px 3px 0;
+	float: right;
+}
+
