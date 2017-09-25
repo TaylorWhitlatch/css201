@@ -107,7 +107,8 @@ certain circumstatnces */
 	height: 20px;
 	display: inline-block;
 	background-position:  -105px -20px;
-	background-image: url("PNpS9AOE4sb.png")
+	background-image: url("PNpS9AOE4sb.png");
+	vertical-align: middle;
 }
 .left-messenger {
 
@@ -118,6 +119,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -452px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #newsicon{
@@ -130,6 +132,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -704px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #eventsicon{
@@ -142,6 +145,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -704px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #pagesicon{
@@ -154,6 +158,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -809px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #groupsicon{
@@ -166,6 +171,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -621px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #fundicon{
@@ -173,7 +179,8 @@ certain circumstatnces */
 	height: 20px;
 	display: inline-block;
 	background-position:  -105px -125px;
-	background-image: url("PNpS9AOE4sb.png")
+	background-image: url("PNpS9AOE4sb.png");
+	vertical-align: middle;
 }
 
 #savedicon{
@@ -186,6 +193,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -936px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #friendslisticon{
@@ -198,6 +206,7 @@ certain circumstatnces */
 	
 	background-position:  -120px -725px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
 
 #onthisdayicon{
@@ -207,6 +216,7 @@ certain circumstatnces */
 	height: 20px;
 	display: inline-block;
 	background-size: auto;
+	vertical-align: middle;
 	
 	background-position:  -120px -789px;
 	background-image: url("zCD22JJOtuU.png");
@@ -219,7 +229,7 @@ certain circumstatnces */
 	height: 20px;
 	display: inline-block;
 	background-size: auto;
-	
+	vertical-align: middle;
 	background-position:  -120px -556px;
 	background-image: url("zCD22JJOtuU.png");
 }
@@ -231,7 +241,7 @@ certain circumstatnces */
 	height: 20px;
 	display: inline-block;
 	background-size: auto;
-	
+	vertical-align: middle;
 	background-position:  -120px -663px;
 	background-image: url("zCD22JJOtuU.png");
 }
@@ -245,13 +255,15 @@ certain circumstatnces */
 	
 	background-position:  -120px -684px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
+
 
 #friendsicontop{
 		width: 24px;
 	height: 24px;
 	display: inline-block;
-	
+	vertical-align: middle;
     background-size: 25px 626px;
     background-position: 0 -75px;
     opacity: .6;
@@ -268,6 +280,7 @@ certain circumstatnces */
     opacity: .6;
 	background-image: url("8cqRm07n-O9.png");
 	padding: 0 3px 3px 0;
+	vertical-align: middle;
 }
 
 #notificationsicon{
@@ -280,6 +293,7 @@ certain circumstatnces */
 	background-image: url("jNvmNEDilLw.png");
 	padding: 0 3px 3px 0;
 	position: relative;
+	vertical-align: middle;
 }
 
 #help {
@@ -382,6 +396,9 @@ background-color: lightyellow;
 	width:  40px;
 	border: 1px solid black;
 	display: inline-block;
+	vertical-align: middle;
+	background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p40x40/13880278_10102337266396433_3075309911834364535_n.jpg?oh=5607c00ffd6fb7edf4dde9ccc9a539d1&oe=5A8703E6");
+	border-radius: 50%;
 }
 
 #status-footer {
@@ -399,7 +416,9 @@ background-color: lightyellow;
 	padding-right: 35px;
 	background-color: red;
 	border: 1px solid black;
-	display: inline-block
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 30px;
 }
 
 #feeling {
@@ -409,7 +428,9 @@ background-color: lightyellow;
 	padding-right: 35px;
 	background-color: red;
 	border: 1px solid black;
-	display: inline-block
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 30px;
 }
 
 #top-trends-icon {
@@ -417,7 +438,7 @@ background-color: lightyellow;
 	height: 16px;
 	width: 16px;
 	background-position:  0px -80px;
-display: inline-block;
+	display: inline-block;
 }
 #politics-trend-icon {
 	background-image: url("6UFmXXnPEE7.png");
@@ -475,6 +496,9 @@ display: inline-block;
 #dot-box {
 	height:  44px;
 	width: 32px;
+	background-color: 1px solid black;
+	display: inline-block;
+	border-radius: 30px;
 }
 #dot-dot-dot {
 
@@ -483,6 +507,7 @@ display: inline-block;
 	display: inline-block;
 	background-size: auto;
 	
-	background-position:  -120px -452px;
+	background-position:  -120px -285px;
 	background-image: url("zCD22JJOtuU.png");
+	vertical-align: middle;
 }
