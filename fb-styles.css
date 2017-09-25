@@ -102,6 +102,17 @@ certain circumstatnces */
 .right-content{
 	width: 308px;
 }
+#name-icon{
+
+
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	vertical-align: middle;
+	background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p24x24/13880278_10102337266396433_3075309911834364535_n.jpg?oh=7b632d8080c884a094277f445f58f59a&oe=5A55BAE5");
+}
+
 .watch{
 	width: 20px;
 	height: 20px;
@@ -382,6 +393,11 @@ background-color: lightyellow;
 	padding-bottom: 8px;
 	border: 1px solid black;
 }
+#status-head li {
+	display: inline-block;
+
+}
+
 #status-input {
 
 	width: 308px;
@@ -419,6 +435,8 @@ background-color: lightyellow;
 	display: inline-block;
 	vertical-align: middle;
 	border-radius: 30px;
+	padding-left: 35px;
+	padding-right: 15px;
 }
 
 #feeling {
@@ -431,6 +449,8 @@ background-color: lightyellow;
 	display: inline-block;
 	vertical-align: middle;
 	border-radius: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 #top-trends-icon {
@@ -510,4 +530,28 @@ display: inline-block;
 	background-position:  -120px -285px;
 	background-image: url("zCD22JJOtuU.png");
 	vertical-align: middle;
+}
+
+#make-post-status-head {
+	width: auto;
+	height: auto;
+	/* background-image: url("QTfEBDYPE08.png"); */
+	background-position: 0px 195px;
+	
+}
+
+#photo-video-album-status-head {
+	width: auto;
+	height: auto;
+	
+}
+
+#live-video-status-head {
+	width: auto;
+	height: auto;
+	
+}
+
+
+
 }
